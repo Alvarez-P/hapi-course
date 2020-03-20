@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Validaciones | AscoDeCódigo</title>
+    <meta name="description" content="Curso de Hapi.js">
+    <meta name="generator" content="VuePress 1.3.1">
+    
+    
+    <link rel="preload" href="/hapi-course/assets/css/0.styles.befdd7ec.css" as="style"><link rel="preload" href="/hapi-course/assets/js/app.95ff4be1.js" as="script"><link rel="preload" href="/hapi-course/assets/js/2.1a781ee6.js" as="script"><link rel="preload" href="/hapi-course/assets/js/14.ee505f55.js" as="script"><link rel="prefetch" href="/hapi-course/assets/js/10.2621dd6f.js"><link rel="prefetch" href="/hapi-course/assets/js/11.6c96a440.js"><link rel="prefetch" href="/hapi-course/assets/js/12.d7d8febc.js"><link rel="prefetch" href="/hapi-course/assets/js/13.4128593e.js"><link rel="prefetch" href="/hapi-course/assets/js/15.f9d29e8d.js"><link rel="prefetch" href="/hapi-course/assets/js/16.fb4f68ce.js"><link rel="prefetch" href="/hapi-course/assets/js/17.0cac0366.js"><link rel="prefetch" href="/hapi-course/assets/js/18.d7884a88.js"><link rel="prefetch" href="/hapi-course/assets/js/19.a3968107.js"><link rel="prefetch" href="/hapi-course/assets/js/3.a5acad2c.js"><link rel="prefetch" href="/hapi-course/assets/js/4.88c051ba.js"><link rel="prefetch" href="/hapi-course/assets/js/5.e1cb6658.js"><link rel="prefetch" href="/hapi-course/assets/js/6.25cdb12b.js"><link rel="prefetch" href="/hapi-course/assets/js/7.22afa0e2.js"><link rel="prefetch" href="/hapi-course/assets/js/8.6828c0a5.js"><link rel="prefetch" href="/hapi-course/assets/js/9.f95726ed.js">
+    <link rel="stylesheet" href="/hapi-course/assets/css/0.styles.befdd7ec.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/hapi-course/" class="home-link router-link-active"><img src="/hapi-course/img/ADC.png" alt="AscoDeCódigo" class="logo"> <span class="site-name can-hide">AscoDeCódigo</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/hapi-course/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/hapi-course/Introducción/" class="nav-link">
+  Introducción
+</a></div><div class="nav-item"><a href="/hapi-course/ConceptosAvanzados/" class="nav-link router-link-active">
+  Avanzado
+</a></div><div class="nav-item"><a href="/hapi-course/Resources/" class="nav-link">
+  Resources
+</a></div><div class="nav-item"><a href="/hapi-course/Proyecto/" class="nav-link">
+  Proyecto
+</a></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/hapi-course/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/hapi-course/Introducción/" class="nav-link">
+  Introducción
+</a></div><div class="nav-item"><a href="/hapi-course/ConceptosAvanzados/" class="nav-link router-link-active">
+  Avanzado
+</a></div><div class="nav-item"><a href="/hapi-course/Resources/" class="nav-link">
+  Resources
+</a></div><div class="nav-item"><a href="/hapi-course/Proyecto/" class="nav-link">
+  Proyecto
+</a></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/hapi-course/ConceptosAvanzados/" class="sidebar-link">Conceptos Avanzados</a></li><li><a href="/hapi-course/ConceptosAvanzados/plugins.html" class="sidebar-link">Plugins</a></li><li><a href="/hapi-course/ConceptosAvanzados/modules.html" class="sidebar-link">Modules</a></li><li><a href="/hapi-course/ConceptosAvanzados/validaciones.html" class="active sidebar-link">Validaciones</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/hapi-course/ConceptosAvanzados/validaciones.html#joi" class="sidebar-link">Joi</a></li></ul></li><li><a href="/hapi-course/ConceptosAvanzados/documentacion.html" class="sidebar-link">Documentación</a></li><li><a href="/hapi-course/ConceptosAvanzados/test.html" class="sidebar-link">Test</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="validaciones"><a href="#validaciones" class="header-anchor">#</a> Validaciones</h1> <h2 id="joi"><a href="#joi" class="header-anchor">#</a> Joi</h2> <p><a href="https://hapi.dev/module/joi/" target="_blank" rel="noopener noreferrer">Documentación<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>El lenguaje de descripción de esquemas y el validador de datos más poderoso para JavaScript.</p> <p><strong>Instalación</strong></p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">npm</span> <span class="token function">install</span> @hapi/joi
+</code></pre></div><p>Joi le permite validar sus datos usando un lenguaje simple a partir de esquemas o plantillas. Al igual que el resto del ecosistema hapi en el que encaja, joi le permite describir sus datos tanto para la validación de entrada como de salida, como parte de un servidor HTTP hapi o independiente.</p> <p><strong>Uso</strong></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> Joi <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'@hapi/joi'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> schema <span class="token operator">=</span> Joi<span class="token punctuation">.</span><span class="token function">object</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    username<span class="token operator">:</span> Joi<span class="token punctuation">.</span><span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">alphanum</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">min</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">required</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    password<span class="token operator">:</span> Joi<span class="token punctuation">.</span><span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">pattern</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">RegExp</span><span class="token punctuation">(</span><span class="token string">'^[a-zA-Z0-9]{3,30}$'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+
+    repeat_password<span class="token operator">:</span> Joi<span class="token punctuation">.</span><span class="token function">ref</span><span class="token punctuation">(</span><span class="token string">'password'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+
+    access_token<span class="token operator">:</span> <span class="token punctuation">[</span>
+        Joi<span class="token punctuation">.</span><span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        Joi<span class="token punctuation">.</span><span class="token function">number</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+    birth_year<span class="token operator">:</span> Joi<span class="token punctuation">.</span><span class="token function">number</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">integer</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">min</span><span class="token punctuation">(</span><span class="token number">1900</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token number">2013</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+
+    email<span class="token operator">:</span> Joi<span class="token punctuation">.</span><span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">email</span><span class="token punctuation">(</span><span class="token punctuation">{</span> minDomainSegments<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span> tlds<span class="token operator">:</span> <span class="token punctuation">{</span> allow<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'com'</span><span class="token punctuation">,</span> <span class="token string">'net'</span><span class="token punctuation">]</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+schema<span class="token punctuation">.</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token punctuation">{</span> username<span class="token operator">:</span> <span class="token string">'abc'</span><span class="token punctuation">,</span> birth_year<span class="token operator">:</span> <span class="token number">1994</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// -&gt; { value: { username: 'abc', birth_year: 1994 } }</span>
+
+schema<span class="token punctuation">.</span><span class="token function">validate</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// -&gt; { value: {}, error: '&quot;username&quot; is required' }</span>
+
+<span class="token comment">// Also -</span>
+
+<span class="token keyword">try</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> value <span class="token operator">=</span> <span class="token keyword">await</span> schema<span class="token punctuation">.</span><span class="token function">validateAsync</span><span class="token punctuation">(</span><span class="token punctuation">{</span> username<span class="token operator">:</span> <span class="token string">'abc'</span><span class="token punctuation">,</span> birth_year<span class="token operator">:</span> <span class="token number">1994</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">catch</span> <span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/hapi-course/ConceptosAvanzados/modules.html" class="prev">
+        Modules
+      </a></span> <span class="next"><a href="/hapi-course/ConceptosAvanzados/documentacion.html">
+        Documentación
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/hapi-course/assets/js/app.95ff4be1.js" defer></script><script src="/hapi-course/assets/js/2.1a781ee6.js" defer></script><script src="/hapi-course/assets/js/14.ee505f55.js" defer></script>
+  </body>
+</html>
